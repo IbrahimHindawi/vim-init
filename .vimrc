@@ -1,4 +1,3 @@
-
 "Setup Defaults
 set expandtab
 set autoindent
@@ -6,6 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set guioptions=
+set guifont=Courier_New:h20:cANSI:qDRAFT          
 set cursorline
 syntax on
 set encoding=utf-8
@@ -19,3 +19,4 @@ call plug#begin("~/.vim/autoload")
 call plug#end()
 "" Setup Color
 colorscheme FieryMist
+
