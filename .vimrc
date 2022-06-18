@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set guioptions=
-set guifont=Courier_New:h20:cANSI:qDRAFT          
+set guifont=Cascadia_Mono_SemiLight:h14:W350:cANSI:qDRAFT          
 set cursorline
 syntax on
 set encoding=utf-8
