@@ -1,26 +1,21 @@
-" Setup Defaults
-set tabstop=4 "configure tabstop size
+
+"Setup Defaults
 set expandtab
 set autoindent
-set nowrap "remove text wrapping
-set guioptions-=m  "remove menu bar
-set guioptions-=T  "remove toolbar
-set guioptions-=r  "remove right-hand scroll bar
-set guioptions-=L  "remove left-hand scroll bar
+set tabstop=4
+set shiftwidth=4
+set nowrap
 set guioptions=
-set guifont=Lucida_Console:h10:cANSI:qDRAFT
-set cursorline "highlight cursor line
-syntax on "enable syntax
+set cursorline
+syntax on
 set encoding=utf-8
 set fileencoding=utf-8
 set re=0
-" Setup PlugIn
-call plug#begin("~/vimfiles/autoload")
+call plug#begin("~/.vim/autoload")
     Plug 'zah/nim.vim'
-    Plug 'mattn/emmet-vim'
+    Plug 'mattn/emet-vim'
+    Plug 'daviddosomething/vim-colors/meh'
+    Plug 'nikolvs/vim-sunbather'
 call plug#end()
-" Setup colorscheme
-"colorscheme PurpleAvocado
-"colorscheme BloodRage
+"" Setup Color
 colorscheme FieryMist
-
