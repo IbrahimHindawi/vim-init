@@ -9,7 +9,7 @@ syntax reset
 endif
 
 set t_Co=256
-let g:colors_name = "black"
+let g:colors_name = "FieryMist"
 
 
 " Define reusable colorvariables.
@@ -23,11 +23,11 @@ let s:bg3="#3f3f3f"
 let s:bg4="#515151"
 let s:keyword="#ffbb00"
 let s:builtin="#e2daa7"
-let s:const= "#e2daa7"
+let s:const= "#ff5900"
 let s:comment="#a3a3a3"
 let s:func="#e2daa7"
 let s:str="#ff5900"
-let s:type="#e2daa7"
+let s:type="#ffbb00"
 let s:var="#e2daa7"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
@@ -65,7 +65,7 @@ exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
 exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
 exe 'hi Float guifg='s:const
 exe 'hi Function guifg='s:func
-exe 'hi Identifier guifg='s:type'  gui=italic'
+exe 'hi Identifier guifg='s:type'  gui=bold'
 exe 'hi Keyword guifg='s:keyword'  gui=bold'
 exe 'hi Label guifg='s:var
 exe 'hi NonText guifg='s:bg4' guibg='s:bg2
@@ -75,7 +75,7 @@ exe 'hi PreProc guifg='s:keyword
 exe 'hi Special guifg='s:fg
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2
 exe 'hi Statement guifg='s:keyword
-exe 'hi StorageClass guifg='s:type'  gui=italic'
+exe 'hi StorageClass guifg='s:type'  gui=bold'
 exe 'hi String guifg='s:str
 exe 'hi Tag guifg='s:keyword
 exe 'hi Title guifg='s:fg'  gui=bold'
@@ -104,7 +104,7 @@ let g:terminal_color_15 = s:comment
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin
 exe 'hi rubyLocalVariableOrMethod guifg='s:var
-exe 'hi rubyGlobalVariable guifg='s:var' gui=italic'
+exe 'hi rubyGlobalVariable guifg='s:var' gui=bold'
 exe 'hi rubyInstanceVariable guifg='s:var
 exe 'hi rubyKeyword guifg='s:keyword
 exe 'hi rubyKeywordAsMethod guifg='s:keyword' gui=bold'
