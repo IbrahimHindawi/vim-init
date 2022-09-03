@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set guioptions=
-set guifont=Consolas:h14
+set guifont=Consolas:h10
 set cursorline
 syntax on
 set encoding=utf-8
@@ -19,4 +19,5 @@ call plug#begin("~/.vim/autoload")
 call plug#end()
 "" Setup Color
 colorscheme FieryMist
-
+autocmd BufNewFile,BufRead *.asm set ft=masm
+map <F5> :!bbuild.bat<CR>
