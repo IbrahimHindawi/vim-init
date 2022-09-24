@@ -7,6 +7,7 @@ set nowrap
 set guioptions=
 set guifont=Consolas:h10
 set cursorline
+set cursorcolumn
 syntax on
 set encoding=utf-8
 set fileencoding=utf-8
@@ -21,3 +22,6 @@ call plug#end()
 colorscheme FieryMist
 autocmd BufNewFile,BufRead *.asm set ft=masm
 map <F5> :!bbuild.bat<CR>
+map <F6> :!bexe.bat<CR>
+nmap <C-l> :tabnext<CR>
+nmap <C-h> :tabprev<CR>
