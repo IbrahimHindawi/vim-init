@@ -40,8 +40,8 @@ exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
-exe 'hi MatchParen guifg='s:warning2'  gui=underline'
-exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
+exe 'hi MatchParen guifg='s:warning2
+exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
@@ -57,16 +57,16 @@ exe 'hi Conditional guifg='s:keyword
 exe 'hi Constant guifg='s:const
 exe 'hi Todo guibg='s:bg
 exe 'hi Define guifg='s:keyword
-exe 'hi DiffAdd guifg=#fafafa guibg=#123d0f gui=bold'
+exe 'hi DiffAdd guifg=#fafafa guibg=#123d0f'
 exe 'hi DiffDelete guibg='s:bg2
 exe 'hi DiffChange  guibg=#151b3c guifg=#fafafa'
-exe 'hi DiffText guifg=#ffffff guibg=#ff0000 gui=bold'
-exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
+exe 'hi DiffText guifg=#ffffff guibg=#ff0000'
+exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2
 exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
 exe 'hi Float guifg='s:const
 exe 'hi Function guifg='s:func
-exe 'hi Identifier guifg='s:type'  gui=bold'
-exe 'hi Keyword guifg='s:keyword'  gui=bold'
+exe 'hi Identifier guifg='s:type
+exe 'hi Keyword guifg='s:keyword
 exe 'hi Label guifg='s:var
 exe 'hi NonText guifg='s:bg4' guibg='s:bg2
 exe 'hi Number guifg='s:const
@@ -75,11 +75,11 @@ exe 'hi PreProc guifg='s:keyword
 exe 'hi Special guifg='s:fg
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2
 exe 'hi Statement guifg='s:keyword
-exe 'hi StorageClass guifg='s:type'  gui=bold'
+exe 'hi StorageClass guifg='s:type
 exe 'hi String guifg='s:str
 exe 'hi Tag guifg='s:keyword
-exe 'hi Title guifg='s:fg'  gui=bold'
-exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
+exe 'hi Title guifg='s:fg
+exe 'hi Todo guifg='s:fg2
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
 

@@ -13,10 +13,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set re=0
 call plug#begin("~/.vim/autoload")
-    Plug 'zah/nim.vim'
-    Plug 'mattn/emet-vim'
-    Plug 'daviddosomething/vim-colors/meh'
-    Plug 'nikolvs/vim-sunbather'
+    Plug 'vim-airline/vim-airline'
 call plug#end()
 "" Setup Color
 colorscheme FieryMist
