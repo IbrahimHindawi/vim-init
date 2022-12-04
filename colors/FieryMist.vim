@@ -82,6 +82,7 @@ exe 'hi Title guifg='s:fg
 exe 'hi Todo guifg='s:fg2
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
+exe 'hi Visual guibg=#440044 gui=none'
 
 " Neovim Terminal Mode
 let g:terminal_color_0 = s:bg
