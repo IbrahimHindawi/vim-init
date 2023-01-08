@@ -5,7 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set guioptions=
-set guifont=Consolas:h10
+set guifont=Fira_Code:h7
 set cursorline
 set cursorcolumn
 syntax on

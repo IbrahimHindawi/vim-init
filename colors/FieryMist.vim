@@ -13,7 +13,7 @@ let g:colors_name = "FieryMist"
 
 
 " Define reusable colorvariables.
-let s:bg="#1a1a1a"
+let s:bg="#101010"
 let s:fg="#e2daa7"
 let s:fg2="#d0c99a"
 let s:fg3="#beb78c"
@@ -31,9 +31,12 @@ let s:type="#ffbb00"
 let s:var="#e2daa7"
 let s:warning="#ff0000"
 let s:warning2="#ff8800"
+let s:white="#0000ff"
+let s:black="#000000"
+let s:red="#ff00ff"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg
-exe 'hi Cursor guifg='s:bg' guibg='s:fg
+exe 'hi Cursor guifg='s:bg' guibg='s:red
 exe 'hi CursorLine  guibg='s:bg2
 exe 'hi CursorLineNr guifg='s:str' guibg='s:bg
 exe 'hi CursorColumn  guibg='s:bg2
@@ -45,7 +48,8 @@ exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
-exe 'hi Search   gui=underline'
+exe 'hi Search guifg='s:white' guibg='s:black
+" exe 'hi Search   gui=underline'
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:fg4' guibg='s:bg
 exe 'hi WildMenu guifg='s:str' guibg='s:bg
@@ -82,7 +86,7 @@ exe 'hi Title guifg='s:fg
 exe 'hi Todo guifg='s:fg2
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
-exe 'hi Visual guibg=#440044 gui=none'
+exe 'hi Visual guibg=#330033 gui=none'
 
 " Neovim Terminal Mode
 let g:terminal_color_0 = s:bg
@@ -105,12 +109,12 @@ let g:terminal_color_15 = s:comment
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin
 exe 'hi rubyLocalVariableOrMethod guifg='s:var
-exe 'hi rubyGlobalVariable guifg='s:var' gui=bold'
+exe 'hi rubyGlobalVariable guifg='s:var' gui=NONE'
 exe 'hi rubyInstanceVariable guifg='s:var
 exe 'hi rubyKeyword guifg='s:keyword
-exe 'hi rubyKeywordAsMethod guifg='s:keyword' gui=bold'
-exe 'hi rubyClassDeclaration guifg='s:keyword' gui=bold'
-exe 'hi rubyClass guifg='s:keyword' gui=bold'
+exe 'hi rubyKeywordAsMethod guifg='s:keyword' gui=NONE'
+exe 'hi rubyClassDeclaration guifg='s:keyword' gui=NONE'
+exe 'hi rubyClass guifg='s:keyword' gui=NONE'
 exe 'hi rubyNumber guifg='s:const
 
 " Python Highlighting
@@ -137,7 +141,7 @@ let g:go_highlight_variable_declarations  = 1
 
 " Javascript Highlighting
 exe 'hi jsBuiltins guifg='s:builtin
-exe 'hi jsFunction guifg='s:keyword' gui=bold'
+exe 'hi jsFunction guifg='s:keyword' gui=NONE'
 exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:var
 
