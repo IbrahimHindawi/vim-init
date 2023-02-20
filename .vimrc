@@ -5,8 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set nowrap
 set guioptions=
-" set guifont=Terminal
-set guifont=Terminal:h10
+set guifont=Modern_DOS_9x16:h11:cANSI:qDRAFT
 set cursorline
 set cursorcolumn
 set t_Co=
